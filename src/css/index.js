@@ -20,3 +20,24 @@ palindrome('А роза упала на лапу Азора'); //true
 //   }
 //   return false;
 // }
+
+// -----------------------------------------------------Caesars Cipher--------------------------------------//
+
+// function rot13(str) {
+//   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXUZ';
+//   let result = '';
+
+//   for (let i = 0; i < str.length; i++) {
+//     if (alphabet.indexOf(str[i]) >= 13) {
+//       result += alphabet[alphabet.indexOf(str[i]) - 13];
+//     } else if (alphabet.indexOf(str[i]) < 13 && alphabet.indexOf(str[i]) > -1) {
+//       result += alphabet[alphabet.indexOf(str[i]) + 13];
+//     } else {
+//       result += str[i];
+//     }
+//   }
+
+//   return result;
+// }
+
+// console.log(rot13('SERR PBQR PNZC'));
